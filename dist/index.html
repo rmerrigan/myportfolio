@@ -5,11 +5,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>My Website</title>
 </head>
 
 <body>
-  <h1>Welcome to my site!</h1>
+  <main>
+
+    <!--Landing area-->
+    <div id="landing">
+      <div id="landing-text">
+        <div id="landing-text-inner">
+          <h1>Web Photos</h1>
+          <h2>Beautiful Photos From Unsplash</h2>
+          <a href="#images" class="btn" id="view-work">View Photos</a>
+          <a href="#contact-info" class="btn" id="contact-btn">Contact</a>
+        </div>
+      </div>
+      <div id="landing-image"></div>
+    </div>
+    <!--Landing area-->
+
+    <!--Image List-->
+    <div id="images">
+
+      <div id="header">
+        <h2>Photos</h2>
+      </div>
+
+      <div id="image-with-caption">
+        <img src="https://source.unsplash.com/collection/2737036/1600x900">
+        <div class="caption">
+          <h3>Minimal Black and White Collection</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, illum!</p>
+        </div>
+      </div>
+
+      <div id="image-with-caption">
+        <img src="https://source.unsplash.com/collection/2254180/1600x900">
+        <div class="caption">
+          <h3>The Colorful Collection</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, illum!</p>
+        </div>
+      </div>
+
+      <div id="image-with-caption">
+        <img src="https://source.unsplash.com/collection/162468/1600x900">
+        <div class="caption">
+          <h3>Earth From Above</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, illum!</p>
+        </div>
+      </div>
+
+      <div id="image-with-caption">
+        <img src="https://source.unsplash.com/collection/395888/1600x900">
+        <div class="caption">
+          <h3>Halloween Collection</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, illum!</p>
+        </div>
+      </div>
+
+      <div id="image-with-caption">
+        <img src="https://source.unsplash.com/collection/1405010/1600x900">
+        <div class="caption">
+          <h3>Blue Collection</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, illum!</p>
+        </div>
+      </div>
+
+
+    </div>
+    <!--Image List-->
+
+  </main>
+
+  <footer id="contact-info">
+    <p>Email:</p>
+    <p>something@something.com</p>
+    <p>Phone:</p>
+    <p>111-111-1111</p>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
