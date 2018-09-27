@@ -1,0 +1,15 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "My portfolio landing",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Richard Merrigan",
+  "license": "MIT",
+  "homepage": "https://rmerrigan.github.io/myportfolio",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
